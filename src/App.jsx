@@ -1,9 +1,11 @@
-import { Prueba } from "./Prueba"
+import Header from "./components/header/Header"
+import Main from "./components/main/Main"
 
 const App = () => {
   return (
     <div>
-      <Prueba/>
+      <Header/>
+      <Main/>
     </div>
   )
 }
