@@ -3,8 +3,19 @@ import '../../styles/header/header.css';
 const Header = () => {
   return (
     <header className='principal'>
-        <h2 id='titulo'>hola</h2>
-        <h1 className='titulo'>Titulo</h1>
+        <div className='contenedores logo' >
+          Logo
+        </div>
+        <div className='contenedores'>
+          <input type='search' id='buscador' placeholder=' Search'></input>
+        </div>
+        <div className='contenedores botones'>
+          <button className='botonesSoloLetras'>Home</button>
+          <button className='botonesSoloLetras'>Nosotros</button>
+          <button className='botonesSoloLetras'>Afiliate</button>
+          <button className='botonesConEstilo' id='botonConBorde'>Iniciar sesión</button>
+          <button className='botonesConEstilo' id='botonSinBorde'>Registrarte</button>
+        </div>
     </header>
   )
 }

@@ -1,7 +1,52 @@
 .principal {
+    background-color: #14213D;
     display: flex;
+    gap: 2rem;
+    height: 5rem;
+    justify-content:space-between;
+    align-items: center;
+    padding: 2rem;
+    font-size: 1.5rem;
 }
 
-.titulo {
-    color: red;
+.contenedores{
+    color: white;
+    justify-content: space-evenly;
+}
+
+.logo{
+    margin-left: 2rem;
+}
+
+.botones{
+    display: flex;
+    gap: 2rem;
+    height: 4rem;
+}
+
+.botonesSoloLetras{
+    border: none;
+    background: none;
+    color: white;
+}
+
+#buscador{
+    height: 2.5rem;
+    width: 40rem;
+    border-radius: 0.5rem;
+}
+
+#botonConBorde{
+    color: white;
+    background-color: #14213D;
+    border: 0.2rem white solid;
+
+}
+
+.botonesConEstilo{
+    border-radius: 0.7rem;
+}
+
+#botonSinBorde{
+    border: none;
 }
