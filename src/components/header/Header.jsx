@@ -8,6 +8,7 @@ const Header = () => {
         </div>
         <div className='contenedores'>
           <input type='search' id='buscador' placeholder=' Search'></input>
+          <button id='botonBuscar'>🔍</button>
         </div>
         <div className='contenedores botones'>
           <button className='botonesSoloLetras'>Home</button>

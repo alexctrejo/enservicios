@@ -32,8 +32,19 @@
 
 #buscador{
     height: 2.5rem;
-    width: 40rem;
-    border-radius: 0.5rem;
+    width: 35rem;
+    border: none;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+#botonBuscar{
+    height: 2.5rem;
+    width: 3rem;
+    border: none;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    background-color: white;
 }
 
 #botonConBorde{
@@ -45,6 +56,7 @@
 
 .botonesConEstilo{
     border-radius: 0.7rem;
+    width: 12rem;
 }
 
 #botonSinBorde{
