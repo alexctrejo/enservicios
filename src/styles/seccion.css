@@ -1,0 +1,31 @@
+.seccion_intereses{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    background-color: #E5E5E5;
+    height: 40rem;
+    justify-content: space-evenly;
+    padding: 5rem 10rem; 
+}
+
+/* Subtitulo */
+.subtitulo{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* Servicios imagen y etiqueta */
+.servicios{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.imagenes{
+    height: 18rem;
+    border-radius: 2rem;
+}
+
+.etiqueta{
+    font-size: 2rem;
+}

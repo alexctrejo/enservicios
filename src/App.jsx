@@ -1,5 +1,6 @@
 import Header from "./components/header/Header"
 import Main from "./components/main/Main"
+import Seccion from  "./components/Seccion"
 import "./App.css"
 
 const App = () => {
@@ -7,6 +8,7 @@ const App = () => {
     <div>
       <Header/>
       <Main/>
+      <Seccion/>
     </div>
   )
 }
