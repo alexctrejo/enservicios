@@ -9,6 +9,7 @@
     font-size: 1.5rem;
 }
 
+/* Todos los contendores */
 .contenedores{
     color: white;
     justify-content: space-evenly;
@@ -18,6 +19,7 @@
     margin-left: 2rem;
 }
 
+/* Botones */
 .botones{
     display: flex;
     gap: 2rem;
@@ -28,6 +30,27 @@
     border: none;
     background: none;
     color: white;
+}
+
+.botonesConEstilo{
+    border-radius: 0.7rem;
+    width: 12rem;
+}
+
+#botonConBorde{
+    color: white;
+    background-color: #14213D;
+    border: 0.2rem white solid;
+
+}
+
+#botonSinBorde{
+    border: none;
+}
+
+/* Buscador */
+.buscador{
+    display: flex;
 }
 
 #buscador{
@@ -41,24 +64,8 @@
 #botonBuscar{
     height: 2.5rem;
     width: 3rem;
-    border: none;
+    border: none; 
     border-top-right-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
     background-color: white;
-}
-
-#botonConBorde{
-    color: white;
-    background-color: #14213D;
-    border: 0.2rem white solid;
-
-}
-
-.botonesConEstilo{
-    border-radius: 0.7rem;
-    width: 12rem;
-}
-
-#botonSinBorde{
-    border: none;
 }

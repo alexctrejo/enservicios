@@ -6,9 +6,9 @@ const Header = () => {
         <div className='contenedores logo' >
           Logo
         </div>
-        <div className='contenedores'>
+        <div className='contenedores buscador'>
           <input type='search' id='buscador' placeholder=' Search'></input>
-          <button id='botonBuscar'>🔍</button>
+          <button id='botonBuscar'> 🔍 </button>
         </div>
         <div className='contenedores botones'>
           <button className='botonesSoloLetras'>Home</button>
