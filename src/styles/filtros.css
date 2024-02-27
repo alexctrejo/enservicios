@@ -1,0 +1,60 @@
+.filtros_principal{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: space-evenly;
+    margin: 1.5rem;
+    width: 25rem;
+}
+
+.subtitulo_filtro{
+    font-size: 2.5rem;
+}
+
+.filtros_etiqueta{
+    font-weight: bold;
+}
+
+/* Todos los filtros */
+.filtros{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    font-size: 1.5rem;
+}
+
+/* Abierto ahora */
+.abierto_ahora_input{
+    display: flex;
+    gap: 1rem;
+}
+
+/* Calificacion */
+.calificacion{
+    gap: 1rem; 
+}
+.calificacion_estrellas{
+    font-size: 3rem;
+}
+
+/* Precio */
+.precio_input{
+    border-color: #E5E5E5;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+    height: 2.5rem;
+    width: 5.5rem;
+}
+/* para quitar las flechas */
+input[type="number"] {
+    -moz-appearance: textfield; /* Firefox */
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Distancia */
+
